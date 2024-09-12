@@ -1,0 +1,48 @@
+.footer {
+    padding: 20px;
+    background-color: #d3d3d3; /* 이미지 배경색과 일치 */
+  }
+  
+  .footer__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer__left,
+  .footer__right {
+    flex: 1;
+  }
+  
+  .footer__center {
+    display: flex;
+    justify-content: space-between;
+    flex: 2;
+  }
+  
+  .footer__section {
+    text-align: left;
+  }
+  
+  .footer__section h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer__section a {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .footer__section a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer__left div,
+  .footer__right h4 {
+    font-weight: bold;
+    font-size: 12px;
+  }

@@ -5,6 +5,6 @@ from django.db import models
 # Create your models here.
 
 
-class User(AbstractBaseUser):
+class serviceUser(AbstractBaseUser):
     email: str = models.CharField(max_length=100)
 
